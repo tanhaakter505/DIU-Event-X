@@ -94,7 +94,7 @@ percent:'<path d="M19 5L5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17
 back:'<path d="M19 12H5M12 19l-7-7 7-7"/>'
 };
 const ic=(n,s)=>{s=s||18;return '<svg class="ic" width="'+s+'" height="'+s+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(ICON[n]||'')+'</svg>';};
-const LOGO='<svg class="logo" viewBox="0 0 64 72" aria-hidden="true"><path d="M32 3L58 12v24c0 16-12 27-26 33C18 63 6 52 6 36V12z" fill="#0E4CC0"/><path d="M32 3L6 12v24c0 16 12 27 26 33z" fill="#2B7FF0" opacity=".55"/><path d="M32 3L58 12v24c0 16-12 27-26 33C18 63 6 52 6 36V12z" fill="none" stroke="#F4C430" stroke-width="3" stroke-linejoin="round"/><g transform="translate(32 26)" fill="#FFC21A">'+[0,60,120,180,240,300].map(a=>'<ellipse cx="0" cy="-6.5" rx="3.6" ry="5.6" transform="rotate('+a+')"/>').join('')+'<circle r="3.6" fill="#E58A00"/></g><text x="32" y="55" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-weight="700" font-size="13" fill="#fff">DIU</text></svg>';
+const LOGO='<img class="logo" src="./diulogo.jpeg" alt="DIU LOGO">';
 const brandText='<span class="bw"><b>DIU <em>EVENT-X</em></b><small>Discover \u2022 Participate \u2022 Grow</small></span>';
 const MARK=LOGO;
 
