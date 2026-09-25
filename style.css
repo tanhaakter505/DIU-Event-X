@@ -140,7 +140,7 @@ input:disabled{background:var(--surface-2);color:var(--ink-2)}
 .clip{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;color:var(--ink-2);margin:6px 0 0}
 
 /* hero */
-.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(rgba(7,26,68,.55),rgba(7,26,68,.55)),url("diu.bg.jpg.jpeg") center center/cover no-repeat;padding:calc(var(--hh) + 56px) 0 44px;min-height:700px}
+.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(rgba(7,26,68,.55),rgba(7,26,68,.55)),url("diu bg.jpeg") center center/cover no-repeat;padding:calc(var(--hh) + 56px) 0 44px;min-height:700px}
 .hero-svg{display:none}
 .hero-in{position:relative;z-index:1}
 .hero h1{font:700 clamp(2.2rem,1rem + 3.7vw,3.9rem)/1.12 var(--display);letter-spacing:-.02em;max-width:760px;margin-bottom:16px}
